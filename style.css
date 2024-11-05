@@ -1,0 +1,128 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  line-height: 1.5;
+}
+body {
+  background-image: url(image.jpg);
+}
+header {
+  background-color: #fff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+h1 {
+  color: #87a922;
+  font-size: 4rem;
+  font-weight: 900;
+
+  text-align: center;
+  line-height: 1.1;
+  margin-bottom: 8px;
+  text-shadow: -2px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black,
+    1px 1px 0 black;
+}
+h2 {
+  color: #fff;
+  font-weight: 900;
+  font-size: 1.8em;
+  text-align: center;
+}
+
+form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 40px 0;
+}
+input[type="text"] {
+  background-color: #fff;
+  border: 2px solid black;
+  border-radius: 10px;
+  font-size: 20px;
+  padding: 13px;
+  width: 350px;
+  font-weight: 900;
+}
+
+.btn {
+  margin-left: 2px;
+  cursor: pointer;
+
+  border-radius: 10px;
+  background-color: red;
+  font-size: 20px;
+  padding: 10px 20px;
+  font-weight: 900;
+  color: #f4f1f1;
+}
+button [type="submit"] {
+  background-color: #007bff;
+  border: none;
+  border-radius: 8px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 16px;
+  padding: 12px 20px;
+  transition: background-color 0.2s;
+}
+button [type="submit"]:hover {
+  background-color: #0069d9;
+}
+#results {
+  display: grid;
+  gap: 40px;
+  height: 300px;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  margin: 40px 0;
+  padding: 20px;
+}
+#results > div {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+#results img {
+  border-radius: 8px;
+  margin-bottom: 20px;
+  object-fit: cover;
+  height: 200px;
+  width: 100%;
+}
+
+#results h3 {
+  color: #333;
+  font-size: 24px;
+  margin: 0;
+}
+
+#results ul {
+  margin: 0;
+  padding: 0;
+}
+
+#results li {
+  list-style: none;
+  margin-bottom: 10px;
+}
+
+#results a {
+  background-color: #007bff;
+  border-radius: 8px;
+  color: #fff;
+  font-size: 16px;
+  padding: 12px 20px;
+  text-align: center;
+  text-decoration: none;
+  transition: background-color 0.2s;
+}
+
+#results a:hover {
+  background-color: #0069d9;
+}
