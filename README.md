@@ -20,20 +20,20 @@ Recipe Finder lets users:
 - **HTML**: Provides the app structure and layout.
 - **CSS**: Styles the interface for a clean, appealing look.
 - **JavaScript**: Handles interactions, API calls, and dynamic content.
-- **API**: (Add API name, e.g., "Edamam" or "Spoonacular") used for retrieving recipe data.
+- **API**: API is used for retrieving recipe data.
 
 ## 📸 Screenshots
 
 **Home Page**  
-![Home Page](./screenshots/home-page.png)  
+![Home Page](./screenshots/Screenshot%20(220).png )
 *Search recipes by ingredients or keywords.*
 
 **Recipe Results**  
-![Recipe Results](./screenshots/recipe-results.png)  
+![Recipe Results](./screenshots/Screenshot%20(221).png)  
 *List of recipes that match the search query.*
 
 **Recipe Details**  
-![Recipe Details](./screenshots/recipe-details.png)  
+![Recipe Details](./screenshots/Screenshot%20(224).png)  
 *Detailed view of a selected recipe.*
 
 ## 🚀 How to Use
